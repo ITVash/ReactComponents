@@ -1,5 +1,7 @@
 .filesBlock {
 	display: flex;
+	justify-content: space-between;
+	align-items: center;
 	&__input {
 		display: flex;
 		justify-content: center;
@@ -33,6 +35,7 @@
 		}
 	}
 	&__items {
+		max-width: calc(100% - 150px);
 		ul {
 			display: flex;
 			list-style: none;
